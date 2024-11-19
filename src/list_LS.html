@@ -1,0 +1,1245 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+        />
+
+        <link rel="stylesheet" href="css/style.css?231564" />
+
+        <link
+            rel="apple-touch-icon"
+            sizes="57x57"
+            href="icons/fav.ico/apple-icon-57x57.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="60x60"
+            href="icons/fav.ico/apple-icon-60x60.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="72x72"
+            href="icons/fav.ico/apple-icon-72x72.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="76x76"
+            href="icons/fav.ico/apple-icon-76x76.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="114x114"
+            href="icons/fav.ico/apple-icon-114x114.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="120x120"
+            href="icons/fav.ico/apple-icon-120x120.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="144x144"
+            href="icons/fav.ico/apple-icon-144x144.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="152x152"
+            href="icons/fav.ico/apple-icon-152x152.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="icons/fav.ico/apple-icon-180x180.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="192x192"
+            href="icons/fav.ico/android-icon-192x192.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="icons/fav.ico/favicon-32x32.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="96x96"
+            href="icons/fav.ico/favicon-96x96.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="icons/fav.ico/favicon-16x16.png"
+        />
+        <link rel="manifest" href="/manifest.json" />
+        <meta name="msapplication-TileColor" content="#7a1f1f" />
+        <meta
+            name="msapplication-TileImage"
+            content="icons/fav.ico/ms-icon-144x144.png"
+        />
+        <meta name="theme-color" content="#7a1f1f" />
+
+        <title>СПИСОК Л/С</title>
+    </head>
+    <body>
+        <main class="second-section">
+            <div class="container__table">
+                <div class="hamburger">
+                    <span class="hamburger__span"></span>
+                    <span class="hamburger__span"></span>
+                    <span class="hamburger__span"></span>
+                </div>
+                <nav id="nav" class="main-section__nav nav-menu">
+                    <a class="nav-menu__button" href="index.html">на главную</a>
+                    <a class="nav-menu__button" href="all_grafs.html">назад</a>
+                    <a class="nav-menu__button" href="table.html">график</a>
+                </nav>
+
+                <div class="graf_LS">
+                    <div class="buffer-1rem"></div>
+                    <h2 class="title__4">cписок личного состава ОР ППСП</h2>
+
+                    <footer class="footer_fixed_LS">
+                        <div class="all_position footer_fixed_LS_item">
+                            по штату: <span class="span_all_position">_</span>
+                        </div>
+                        <div class="all_employees footer_fixed_LS_item">
+                            укомплектовано:
+                            <span class="span_all_employees">_</span>
+                        </div>
+                        <div class="vacant_position footer_fixed_LS_item">
+                            вакант: <span class="span_vacant_position">_</span>
+                        </div>
+                        <div class="candidate footer_fixed_LS_item">
+                            кандидаты: <span class="span_candidate">_</span>
+                        </div>
+
+                        <div class="in_ranks footer_fixed_LS_item">
+                            в строю: <span class="span_in_ranks">_</span>
+                        </div>
+                        <div class="errand footer_fixed_LS_item">
+                            командировка: <span class="span_errand">_</span>
+                        </div>
+                        <div class="disease footer_fixed_LS_item">
+                            больничный: <span class="span_disease">_</span>
+                        </div>
+                        <div class="holiday footer_fixed_LS_item">
+                            отпуск: <span class="span_holiday">_</span>
+                        </div>
+                        <div class="footer_fixed_LS_item">
+                            группа: <span class="span_group">0</span>
+                        </div>
+                        <div class="footer_fixed_LS_item">
+                            <input
+                                type="text"
+                                class="footer__input"
+                                id="footerInput"
+                                placeholder="  введите задание"
+                            />
+                            <button class="button_message_LS check-in">
+                                отправить
+                            </button>
+                        </div>
+                    </footer>
+
+                    <div class="table_graf_LS">
+                        <div class="table_graf_string_LS">
+                            <div class="number header_item">№</div>
+                            <div class="name header_item">Ф. И. О.</div>
+                            <div class="rank header_item">звание</div>
+                            <div class="job_title header_item">должность</div>
+                            <div class="status header_item">состояние</div>
+                            <div class="call header_item">вызов</div>
+                        </div>
+
+                        <!-- ⬇︎Ибрагимов -->
+                        <div class="table_graf_string_1_LS">
+                            <div class="table_item_LS number-box">
+                                <span class="number">_</span>
+
+                                <input type="checkbox" class="item-checkbox" />
+                            </div>
+
+                            <div class="table_item_LS">
+                                <ul class="table_list_LS">
+                                    <li class="table_list_item_LS">
+                                        Ибрагимов
+                                    </li>
+                                    <li class="table_list_item_LS">Альберт</li>
+                                    <li class="table_list_item_LS">
+                                        Исмаилович
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="table_item_LS">майор полиции</div>
+
+                            <div class="table_item_LS">
+                                заместитель командира ОР ППСП
+                            </div>
+
+                            <div class="table_item_LS item_LS_centr">
+                                <ul class="table_list_LS">
+                                    <li class="table_list_item_LS">
+                                        <span class="count_status"
+                                            >в строю</span
+                                        >
+                                    </li>
+                                    <li class="table_list_item_LS">
+                                        <span class="from"></span>
+                                    </li>
+                                    <li class="table_list_item_LS">
+                                        <span class="to"></span>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="table_item_LS item_LS_centr">
+                                <a href="tel:+79064900005" class="link_graf">
+                                    <button class="button_graf_LS">
+                                        вызов
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- ⬆︎Ибрагимов -->
+
+                        <!-- ⬇︎Басаков -->
+                        <div class="table_graf_string_1_LS">
+                            <div class="table_item_LS number-box">
+                                <span class="number">_</span>
+
+                                <input type="checkbox" class="item-checkbox" />
+                            </div>
+
+                            <div class="table_item_LS">
+                                <ul class="table_list_LS">
+                                    <li class="table_list_item_LS">Басаков</li>
+                                    <li class="table_list_item_LS">Евгений</li>
+                                    <li class="table_list_item_LS">
+                                        Александрович
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="table_item_LS">
+                                старший <br />
+                                лейтенант полиции
+                            </div>
+
+                            <div class="table_item_LS item_LS_centr">
+                                заместитель командира ОР ППСП
+                            </div>
+
+                            <div class="table_item_LS item_LS_centr">
+                                <ul class="table_list_LS">
+                                    <li class="table_list_item_LS">
+                                        <span class="count_status">отпуск</span>
+                                    </li>
+                                    <li class="table_list_item_LS">
+                                        <span class="from">с 11.11.2024</span>
+                                    </li>
+                                    <li class="table_list_item_LS">
+                                        <span class="to">по 12.20.2024</span>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="table_item_LS item_LS_centr">
+                                <a href="tel:+79994972818" class="link_graf">
+                                    <button class="button_graf_LS">
+                                        вызов
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- ⬆︎Басаков -->
+
+                        <!-- ⬇︎Джибабов -->
+                        <div class="table_graf_string_1_LS">
+                            <div class="table_item_LS number-box">
+                                <span class="number">_</span>
+
+                                <input type="checkbox" class="item-checkbox" />
+                            </div>
+
+                            <div class="table_item_LS">
+                                <ul class="table_list_LS">
+                                    <li class="table_list_item_LS">Джибабов</li>
+                                    <li class="table_list_item_LS">Даут</li>
+                                    <li class="table_list_item_LS">
+                                        Заудинович
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="table_item_LS">капитан полиции</div>
+
+                            <div class="table_item_LS">
+                                командир мобильного взвода ОР ППСП
+                            </div>
+
+                            <div class="table_item_LS item_LS_centr">
+                                <ul class="table_list_LS">
+                                    <li class="table_list_item_LS">
+                                        <span class="count_status"
+                                            >в строю</span
+                                        >
+                                    </li>
+                                    <li class="table_list_item_LS">
+                                        <span class="from"></span>
+                                    </li>
+                                    <li class="table_list_item_LS">
+                                        <span class="to"></span>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="table_item_LS item_LS_centr">
+                                <a href="tel:+79283224854" class="link_graf">
+                                    <button class="button_graf_LS">
+                                        вызов
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- ⬆︎Джибабов -->
+
+                        <!-- ⬇︎Апаршев -->
+                        <div class="table_graf_string_1_LS">
+                            <div class="table_item_LS number-box">
+                                <span class="number">_</span>
+
+                                <input type="checkbox" class="item-checkbox" />
+                            </div>
+
+                            <div class="table_item_LS">
+                                <ul class="table_list_LS">
+                                    <li class="table_list_item_LS">Апаршев</li>
+                                    <li class="table_list_item_LS">Роман</li>
+                                    <li class="table_list_item_LS">
+                                        Александрович
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="table_item_LS">лейтенант полиции</div>
+
+                            <div class="table_item_LS">
+                                инспектор мобильного взвода ОР ППСП
+                            </div>
+
+                            <div class="table_item_LS item_LS_centr">
+                                <ul class="table_list_LS">
+                                    <li class="table_list_item_LS">
+                                        <span class="count_status"
+                                            >командировка</span
+                                        >
+                                    </li>
+                                    <li class="table_list_item_LS">
+                                        <span class="from">с ...</span>
+                                    </li>
+                                    <li class="table_list_item_LS">
+                                        <span class="to">по ...</span>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="table_item_LS item_LS_centr">
+                                <a href="tel:+79187617170" class="link_graf">
+                                    <button class="button_graf_LS">
+                                        вызов
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- ⬆︎Апаршев -->
+
+                        <!-- ⬇︎Катчиев -->
+                        <div class="table_graf_string_1_LS">
+                            <div class="table_item_LS number-box">
+                                <span class="number">_</span>
+
+                                <input type="checkbox" class="item-checkbox" />
+                            </div>
+
+                            <div class="table_item_LS">
+                                <ul class="table_list_LS">
+                                    <li class="table_list_item_LS">Катчиев</li>
+                                    <li class="table_list_item_LS">Таулан</li>
+                                    <li class="table_list_item_LS">
+                                        Муратович
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="table_item_LS">лейтенант полиции</div>
+
+                            <div class="table_item_LS">
+                                инспектор мобильного взвода ОР ППСП
+                            </div>
+
+                            <div class="table_item_LS item_LS_centr">
+                                <ul class="table_list_LS">
+                                    <li class="table_list_item_LS">
+                                        <span class="count_status"
+                                            >командировка</span
+                                        >
+                                    </li>
+                                    <li class="table_list_item_LS">
+                                        <span class="from">с ...</span>
+                                    </li>
+                                    <li class="table_list_item_LS">
+                                        <span class="to">по ...</span>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="table_item_LS item_LS_centr">
+                                <a href="tel:+79283822223" class="link_graf">
+                                    <button class="button_graf_LS">
+                                        вызов
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- ⬆︎Катчиев -->
+
+                        <!-- ⬇︎Калмыкова -->
+                        <div class="table_graf_string_1_LS">
+                            <div class="table_item_LS number-box">
+                                <span class="number">_</span>
+
+                                <input type="checkbox" class="item-checkbox" />
+                            </div>
+
+                            <div class="table_item_LS">
+                                <ul class="table_list_LS">
+                                    <li class="table_list_item_LS">
+                                        Калмыкова
+                                    </li>
+                                    <li class="table_list_item_LS">Марина</li>
+                                    <li class="table_list_item_LS">
+                                        Борисовна
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="table_item_LS">лейтенант полиции</div>
+
+                            <div class="table_item_LS">
+                                инспектор мобильного взвода ОР ППСП
+                            </div>
+
+                            <div class="table_item_LS item_LS_centr">
+                                <ul class="table_list_LS">
+                                    <li class="table_list_item_LS">
+                                        <span class="count_status"
+                                            >в строю</span
+                                        >
+                                    </li>
+                                    <li class="table_list_item_LS">
+                                        <span class="from"></span>
+                                    </li>
+                                    <li class="table_list_item_LS">
+                                        <span class="to"></span>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="table_item_LS item_LS_centr">
+                                <a href="tel:+79187441922" class="link_graf">
+                                    <button class="button_graf_LS">
+                                        вызов
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- ⬆︎Калмыкова -->
+
+                        <!-- ⬇︎Текеев -->
+                        <div class="table_graf_string_1_LS">
+                            <div class="table_item_LS number-box">
+                                <span class="number">_</span>
+
+                                <input type="checkbox" class="item-checkbox" />
+                            </div>
+
+                            <div class="table_item_LS">
+                                <ul class="table_list_LS">
+                                    <li class="table_list_item_LS">Текеев</li>
+                                    <li class="table_list_item_LS">Мурат</li>
+                                    <li class="table_list_item_LS">
+                                        Исмаилович
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="table_item_LS">лейтенант полиции</div>
+
+                            <div class="table_item_LS">
+                                инспектор мобильного взвода ОР ППСП
+                            </div>
+
+                            <div class="table_item_LS item_LS_centr">
+                                <ul class="table_list_LS">
+                                    <li class="table_list_item_LS">
+                                        <span class="count_status"
+                                            >в строю</span
+                                        >
+                                    </li>
+                                    <li class="table_list_item_LS">
+                                        <span class="from"></span>
+                                    </li>
+                                    <li class="table_list_item_LS">
+                                        <span class="to"></span>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="table_item_LS item_LS_centr">
+                                <a href="tel:+79682775001" class="link_graf">
+                                    <button class="button_graf_LS">
+                                        вызов
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- ⬆︎Текеев -->
+
+                        <!-- ⬇︎Долгополов -->
+                        <div class="table_graf_string_1_LS">
+                            <div class="table_item_LS number-box">
+                                <span class="number">_</span>
+
+                                <input type="checkbox" class="item-checkbox" />
+                            </div>
+
+                            <div class="table_item_LS">
+                                <ul class="table_list_LS">
+                                    <li class="table_list_item_LS">
+                                        Долгополов
+                                    </li>
+                                    <li class="table_list_item_LS">
+                                        Александр
+                                    </li>
+                                    <li class="table_list_item_LS">
+                                        Евгеньевич
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="table_item_LS">сержант полиции</div>
+
+                            <div class="table_item_LS">
+                                командир отделения<br />
+                                мобильного взвода ОР ППСП
+                            </div>
+
+                            <div class="table_item_LS item_LS_centr">
+                                <ul class="table_list_LS">
+                                    <li class="table_list_item_LS">
+                                        <span class="count_status"
+                                            >в строю</span
+                                        >
+                                    </li>
+                                    <li class="table_list_item_LS">
+                                        <span class="from"></span>
+                                    </li>
+                                    <li class="table_list_item_LS">
+                                        <span class="to"></span>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="table_item_LS item_LS_centr">
+                                <a href="tel:+79899933650" class="link_graf">
+                                    <button class="button_graf_LS">
+                                        вызов
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- ⬆︎Долгополов -->
+
+                        <!-- ⬇︎ Бижуков -->
+                        <div class="table_graf_string_1_LS">
+                            <div class="table_item_LS number-box">
+                                <span class="number">_</span>
+
+                                <input type="checkbox" class="item-checkbox" />
+                            </div>
+
+                            <div class="table_item_LS">
+                                <ul class="table_list_LS">
+                                    <li class="table_list_item_LS">Бижуков</li>
+                                    <li class="table_list_item_LS">Мурат</li>
+                                    <li class="table_list_item_LS">
+                                        Назирович
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="table_item_LS">
+                                старший сержант полиции
+                            </div>
+
+                            <div class="table_item_LS">
+                                командир отделения<br />
+                                мобильного взвода ОР ППСП
+                            </div>
+
+                            <div class="table_item_LS item_LS_centr">
+                                <ul class="table_list_LS">
+                                    <li class="table_list_item_LS">
+                                        <span class="count_status"
+                                            >в строю</span
+                                        >
+                                    </li>
+                                    <li class="table_list_item_LS">
+                                        <span class="from"></span>
+                                    </li>
+                                    <li class="table_list_item_LS">
+                                        <span class="to"></span>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="table_item_LS item_LS_centr">
+                                <a href="tel:+79283130827" class="link_graf">
+                                    <button class="button_graf_LS">
+                                        вызов
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- ⬆︎ Бижуков -->
+
+                        <!-- ⬇︎Шаев -->
+                        <div class="table_graf_string_1_LS">
+                            <div class="table_item_LS number-box">
+                                <span class="number">_</span>
+
+                                <input type="checkbox" class="item-checkbox" />
+                            </div>
+
+                            <div class="table_item_LS">
+                                <ul class="table_list_LS">
+                                    <li class="table_list_item_LS">Шаев</li>
+                                    <li class="table_list_item_LS">Эльдар</li>
+                                    <li class="table_list_item_LS">
+                                        Шамельевич
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="table_item_LS">
+                                старший лейтенант полиции
+                            </div>
+
+                            <div class="table_item_LS">
+                                полицейский-водитель <br />
+                                мобильного взвода ОР ППСП
+                            </div>
+
+                            <div class="table_item_LS item_LS_centr">
+                                <ul class="table_list_LS">
+                                    <li class="table_list_item_LS">
+                                        <span class="count_status"
+                                            >в строю</span
+                                        >
+                                    </li>
+                                    <li class="table_list_item_LS">
+                                        <span class="from"></span>
+                                    </li>
+                                    <li class="table_list_item_LS">
+                                        <span class="to"></span>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="table_item_LS item_LS_centr">
+                                <a href="tel:+79094981651" class="link_graf">
+                                    <button class="button_graf_LS">
+                                        вызов
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- ⬆︎Шаев -->
+
+                        <!-- ⬇︎Оганесян -->
+                        <div class="table_graf_string_1_LS">
+                            <div class="table_item_LS number-box">
+                                <span class="number">_</span>
+
+                                <input type="checkbox" class="item-checkbox" />
+                            </div>
+
+                            <div class="table_item_LS">
+                                <ul class="table_list_LS">
+                                    <li class="table_list_item_LS">Оганесян</li>
+                                    <li class="table_list_item_LS">Сако</li>
+                                    <li class="table_list_item_LS">
+                                        Славикович
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="table_item_LS">лейтенант полиции</div>
+
+                            <div class="table_item_LS">
+                                полицейский-водитель <br />
+                                мобильного взвода ОР ППСП
+                            </div>
+
+                            <div class="table_item_LS item_LS_centr">
+                                <ul class="table_list_LS">
+                                    <li class="table_list_item_LS">
+                                        <span class="count_status"
+                                            >больничный</span
+                                        >
+                                    </li>
+                                    <li class="table_list_item_LS">
+                                        <span class="from">с ...</span>
+                                    </li>
+                                    <li class="table_list_item_LS">
+                                        <span class="to">по ...</span>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="table_item_LS item_LS_centr">
+                                <a href="tel:+79993788788" class="link_graf">
+                                    <button class="button_graf_LS">
+                                        вызов
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- ⬆︎Оганесян -->
+
+                        <!-- ⬇︎Гумба -->
+                        <div class="table_graf_string_1_LS">
+                            <div class="table_item_LS number-box">
+                                <span class="number">_</span>
+
+                                <input type="checkbox" class="item-checkbox" />
+                            </div>
+
+                            <div class="table_item_LS">
+                                <ul class="table_list_LS">
+                                    <li class="table_list_item_LS">Гумба</li>
+                                    <li class="table_list_item_LS">Олег</li>
+                                    <li class="table_list_item_LS">
+                                        Михайлович
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="table_item_LS">
+                                старший лейтенант полиции
+                            </div>
+
+                            <div class="table_item_LS">
+                                полицейский-водитель <br />
+                                мобильного взвода ОР ППСП
+                            </div>
+
+                            <div class="table_item_LS item_LS_centr">
+                                <ul class="table_list_LS">
+                                    <li class="table_list_item_LS">
+                                        <span class="count_status"
+                                            >в строю</span
+                                        >
+                                    </li>
+                                    <li class="table_list_item_LS">
+                                        <span class="from"></span>
+                                    </li>
+                                    <li class="table_list_item_LS">
+                                        <span class="to"></span>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="table_item_LS item_LS_centr">
+                                <a href="tel:+79888621616" class="link_graf">
+                                    <button class="button_graf_LS">
+                                        вызов
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- ⬆︎Гумба -->
+
+                        <!-- ⬇︎Вашковцов -->
+                        <div class="table_graf_string_1_LS">
+                            <div class="table_item_LS number-box">
+                                <span class="number">_</span>
+
+                                <input type="checkbox" class="item-checkbox" />
+                            </div>
+
+                            <div class="table_item_LS">
+                                <ul class="table_list_LS">
+                                    <li class="table_list_item_LS">
+                                        Вашковцов
+                                    </li>
+                                    <li class="table_list_item_LS">Алексей</li>
+                                    <li class="table_list_item_LS">
+                                        Николаевич
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="table_item_LS">капитан полиции</div>
+
+                            <div class="table_item_LS">
+                                командир взвода ОР ППСП
+                            </div>
+
+                            <div class="table_item_LS item_LS_centr">
+                                <ul class="table_list_LS">
+                                    <li class="table_list_item_LS">
+                                        <span class="count_status"
+                                            >командировка</span
+                                        >
+                                    </li>
+                                    <li class="table_list_item_LS">
+                                        <span class="from">с ...</span>
+                                    </li>
+                                    <li class="table_list_item_LS">
+                                        <span class="to">по ...</span>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="table_item_LS item_LS_centr">
+                                <a href="tel:+79054421577" class="link_graf">
+                                    <button class="button_graf_LS">
+                                        вызов
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- ⬆︎ Вашковцов -->
+
+                        <!-- ⬇︎ Агасарян -->
+                        <div class="table_graf_string_1_LS">
+                            <div class="table_item_LS number-box">
+                                <span class="number">_</span>
+
+                                <input type="checkbox" class="item-checkbox" />
+                            </div>
+
+                            <div class="table_item_LS">
+                                <ul class="table_list_LS">
+                                    <li class="table_list_item_LS">Агасарян</li>
+                                    <li class="table_list_item_LS">Арно</li>
+                                    <li class="table_list_item_LS">Оникович</li>
+                                </ul>
+                            </div>
+
+                            <div class="table_item_LS">
+                                старший лейтенант полиции
+                            </div>
+
+                            <div class="table_item_LS">
+                                заместитель командира взвода ОР ППСП
+                            </div>
+
+                            <div class="table_item_LS item_LS_centr">
+                                <ul class="table_list_LS">
+                                    <li class="table_list_item_LS">
+                                        <span class="count_status">отпуск</span>
+                                    </li>
+                                    <li class="table_list_item_LS">
+                                        <span class="from">с</span>
+                                    </li>
+                                    <li class="table_list_item_LS">
+                                        <span class="to">по</span>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="table_item_LS item_LS_centr">
+                                <a href="tel:+79282572007" class="link_graf">
+                                    <button class="button_graf_LS">
+                                        вызов
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- ⬆︎ Агасарян -->
+
+                        <!-- ⬇︎ Коваленко -->
+                        <div class="table_graf_string_1_LS">
+                            <div class="table_item_LS number-box">
+                                <span class="number">_</span>
+
+                                <input type="checkbox" class="item-checkbox" />
+                            </div>
+
+                            <div class="table_item_LS">
+                                <ul class="table_list_LS">
+                                    <li class="table_list_item_LS">
+                                        Коваленко
+                                    </li>
+                                    <li class="table_list_item_LS">Николай</li>
+                                    <li class="table_list_item_LS">
+                                        Николаевич
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="table_item_LS">прапорщик полиции</div>
+
+                            <div class="table_item_LS">
+                                командир отделения взвода ОР ППСП
+                            </div>
+
+                            <div class="table_item_LS item_LS_centr">
+                                <ul class="table_list_LS">
+                                    <li class="table_list_item_LS">
+                                        <span class="count_status"
+                                            >в строю</span
+                                        >
+                                    </li>
+                                    <li class="table_list_item_LS">
+                                        <span class="from"></span>
+                                    </li>
+                                    <li class="table_list_item_LS">
+                                        <span class="to"></span>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="table_item_LS item_LS_centr">
+                                <a href="tel:+79289838239" class="link_graf">
+                                    <button class="button_graf_LS">
+                                        вызов
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- ⬆︎ Коваленко -->
+
+                        <!-- ⬇︎ Кипкеев -->
+                        <div class="table_graf_string_1_LS">
+                            <div class="table_item_LS number-box">
+                                <span class="number">_</span>
+
+                                <input type="checkbox" class="item-checkbox" />
+                            </div>
+
+                            <div class="table_item_LS">
+                                <ul class="table_list_LS">
+                                    <li class="table_list_item_LS">Кипкеев</li>
+                                    <li class="table_list_item_LS">Руслан</li>
+                                    <li class="table_list_item_LS">Пачаевич</li>
+                                </ul>
+                            </div>
+
+                            <div class="table_item_LS">прапорщик полиции</div>
+
+                            <div class="table_item_LS">
+                                командир отделения взвода ОР ППСП
+                            </div>
+
+                            <div class="table_item_LS item_LS_centr">
+                                <ul class="table_list_LS">
+                                    <li class="table_list_item_LS">
+                                        <span class="count_status"
+                                            >в строю</span
+                                        >
+                                    </li>
+                                    <li class="table_list_item_LS">
+                                        <span class="from"></span>
+                                    </li>
+                                    <li class="table_list_item_LS">
+                                        <span class="to"></span>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="table_item_LS item_LS_centr">
+                                <a href="tel:+79283142226" class="link_graf">
+                                    <button class="button_graf_LS">
+                                        вызов
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- ⬆︎ Кипкеев -->
+
+                        <!-- ⬇︎ Попов -->
+                        <div class="table_graf_string_1_LS">
+                            <div class="table_item_LS number-box">
+                                <span class="number">_</span>
+
+                                <input type="checkbox" class="item-checkbox" />
+                            </div>
+
+                            <div class="table_item_LS">
+                                <ul class="table_list_LS">
+                                    <li class="table_list_item_LS">Попов</li>
+                                    <li class="table_list_item_LS">Денис</li>
+                                    <li class="table_list_item_LS">
+                                        Евгеньевич
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="table_item_LS">сержант полиции</div>
+
+                            <div class="table_item_LS">
+                                полицейский взвода ОР ППСП
+                            </div>
+
+                            <div class="table_item_LS item_LS_centr">
+                                <ul class="table_list_LS">
+                                    <li class="table_list_item_LS">
+                                        <span class="count_status"
+                                            >в строю</span
+                                        >
+                                    </li>
+                                    <li class="table_list_item_LS">
+                                        <span class="from"></span>
+                                    </li>
+                                    <li class="table_list_item_LS">
+                                        <span class="to"></span>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="table_item_LS item_LS_centr">
+                                <a href="tel:+79282800996" class="link_graf">
+                                    <button class="button_graf_LS">
+                                        вызов
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- ⬆︎ Попов -->
+
+                        <!-- ⬇︎ Касакова -->
+                        <div class="table_graf_string_1_LS">
+                            <div class="table_item_LS number-box">
+                                <span class="number">_</span>
+
+                                <input type="checkbox" class="item-checkbox" />
+                            </div>
+
+                            <div class="table_item_LS">
+                                <ul class="table_list_LS">
+                                    <li class="table_list_item_LS">Касакова</li>
+                                    <li class="table_list_item_LS">Виктория</li>
+                                    <li class="table_list_item_LS">
+                                        Александровна
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="table_item_LS">сержант полиции</div>
+
+                            <div class="table_item_LS">
+                                полицейский взвода ОР ППСП
+                            </div>
+
+                            <div class="table_item_LS item_LS_centr">
+                                <ul class="table_list_LS">
+                                    <li class="table_list_item_LS">
+                                        <span class="count_status"
+                                            >в строю</span
+                                        >
+                                    </li>
+                                    <li class="table_list_item_LS">
+                                        <span class="from"></span>
+                                    </li>
+                                    <li class="table_list_item_LS">
+                                        <span class="to"></span>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="table_item_LS item_LS_centr">
+                                <a href="tel:+79887029053" class="link_graf">
+                                    <button class="button_graf_LS">
+                                        вызов
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- ⬆︎ Касакова -->
+
+                        <!-- ⬇︎ Усатенко -->
+                        <div class="table_graf_string_1_LS">
+                            <div class="table_item_LS number-box">
+                                <span class="number">_</span>
+
+                                <input type="checkbox" class="item-checkbox" />
+                            </div>
+
+                            <div class="table_item_LS">
+                                <ul class="table_list_LS">
+                                    <li class="table_list_item_LS">Усатенко</li>
+                                    <li class="table_list_item_LS">Михаил</li>
+                                    <li class="table_list_item_LS">
+                                        Владимирович
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="table_item_LS">сержант полиции</div>
+
+                            <div class="table_item_LS">
+                                полицейский взвода ОР ППСП
+                            </div>
+
+                            <div class="table_item_LS item_LS_centr">
+                                <ul class="table_list_LS">
+                                    <li class="table_list_item_LS">
+                                        <span class="count_status"
+                                            >в строю</span
+                                        >
+                                    </li>
+                                    <li class="table_list_item_LS">
+                                        <span class="from"></span>
+                                    </li>
+                                    <li class="table_list_item_LS">
+                                        <span class="to"></span>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="table_item_LS item_LS_centr">
+                                <a href="tel:+79887072725" class="link_graf">
+                                    <button class="button_graf_LS">
+                                        вызов
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- ⬆︎ Усатенко -->
+
+                        <!-- ⬇︎ Шмидт -->
+                        <div class="table_graf_string_1_LS">
+                            <div class="table_item_LS number-box">
+                                <span class="number">_</span>
+
+                                <input type="checkbox" class="item-checkbox" />
+                            </div>
+
+                            <div class="table_item_LS">
+                                <ul class="table_list_LS">
+                                    <li class="table_list_item_LS">Шмидт</li>
+                                    <li class="table_list_item_LS">
+                                        Владислав
+                                    </li>
+                                    <li class="table_list_item_LS">
+                                        Евгеньевич
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="table_item_LS">сержант полиции</div>
+
+                            <div class="table_item_LS">
+                                полицейский взвода ОР ППСП
+                            </div>
+
+                            <div class="table_item_LS item_LS_centr">
+                                <ul class="table_list_LS">
+                                    <li class="table_list_item_LS">
+                                        <span class="count_status"
+                                            >командировка</span
+                                        >
+                                    </li>
+                                    <li class="table_list_item_LS">
+                                        <span class="from">с ...</span>
+                                    </li>
+                                    <li class="table_list_item_LS">
+                                        <span class="to">по ...</span>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="table_item_LS item_LS_centr">
+                                <a href="tel:+79316347185" class="link_graf">
+                                    <button class="button_graf_LS">
+                                        вызов
+                                    </button> </a
+                                >ы
+                            </div>
+                        </div>
+                        <!-- ⬆︎ Шмидт -->
+
+                        <!-- ⬇︎ Мамедов -->
+                        <div class="table_graf_string_1_LS">
+                            <div class="table_item_LS number-box">
+                                <span class="number">_</span>
+
+                                <input type="checkbox" class="item-checkbox" />
+                            </div>
+
+                            <div class="table_item_LS">
+                                <ul class="table_list_LS">
+                                    <li class="table_list_item_LS">Мамедов</li>
+                                    <li class="table_list_item_LS">Рустам</li>
+                                    <li class="table_list_item_LS">
+                                        Ильгарович
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="table_item_LS">сержант полиции</div>
+
+                            <div class="table_item_LS">
+                                полицейский взвода ОР ППСП
+                            </div>
+
+                            <div class="table_item_LS item_LS_centr">
+                                <ul class="table_list_LS">
+                                    <li class="table_list_item_LS">
+                                        <span class="count_status">отпуск</span>
+                                    </li>
+                                    <li class="table_list_item_LS">
+                                        <span class="from">с ...</span>
+                                    </li>
+                                    <li class="table_list_item_LS">
+                                        <span class="to">по ...</span>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="table_item_LS item_LS_centr">
+                                <a href="tel:+79188050446" class="link_graf">
+                                    <button class="button_graf_LS">
+                                        вызов
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- ⬆︎ Мамедов -->
+                    </div>
+                    <!--⬆︎конец контейнера table_graf_LS -->
+                </div>
+                <!--⬆︎конец контейнера graf_LS -->
+
+                <div class="buffer_list_LS"></div>
+            </div>
+        </main>
+
+        <script src="js/humburger.js" defer></script>
+        <script src="js/DVH.js" defer></script>
+        <script src="js/LS.js" defer></script>
+    </body>
+</html>
